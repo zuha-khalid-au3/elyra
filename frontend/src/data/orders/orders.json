@@ -1,14 +1,14 @@
 [
   {
     "date": "Aug 17, 2020",
-    "deliveryAddress": "27 Division St, ew York, NY 10002, US.  St, New York, NY 10002, USA",
+    "deliveryAddress": "27/50 Johnstonganj Allahabad, UP 211003, India",
     "amount": "618.80",
     "status": {
       "onWay": true
     },
     "orderItems": [
       {
-        "name": "Foundation Beshop",
+        "name": "Foundation Elyra",
         "price": "125.95"
       },
       {
@@ -23,14 +23,14 @@
   },
   {
     "date": "APril 22, 2020",
-    "deliveryAddress": "27 Division St, ew York, NY 10002, US.  St, New York, NY 10002, USA",
+    "deliveryAddress": "27/50 Johnstonganj Allahabad, UP 211003, India",
     "amount": "700.80",
     "status": {
       "delivered": true
     },
     "orderItems": [
       {
-        "name": "Foundation Beshop",
+        "name": "Foundation Elyra",
         "price": "125.95"
       },
       {
@@ -45,14 +45,14 @@
   },
   {
     "date": "jun 10, 2020",
-    "deliveryAddress": "27 Division St, ew York, NY 10002, US.  St, New York, NY 10002, USA",
+    "deliveryAddress": "27/50 Johnstonganj Allahabad, UP 211003, India",
     "amount": "618.80",
     "status": {
       "onWay": true
     },
     "orderItems": [
       {
-        "name": "Foundation Beshop",
+        "name": "Foundation Elyra",
         "price": "125.95"
       },
       {
@@ -67,14 +67,14 @@
   },
   {
     "date": "Aug 26, 2020",
-    "deliveryAddress": "27 Division St, ew York, NY 10002, US.  St, New York, NY 10002, USA",
+    "deliveryAddress": "27/50 Johnstonganj Allahabad, UP 211003, India",
     "amount": "88.80",
     "status": {
       "delivered": true
     },
     "orderItems": [
       {
-        "name": "Foundation Beshop",
+        "name": "Foundation Elyra",
         "price": "125.95"
       },
       {
@@ -89,14 +89,14 @@
   },
   {
     "date": "Aug 12, 2020",
-    "deliveryAddress": "27 Division St, ew York, NY 10002, US.  St, New York, NY 10002, USA",
+    "deliveryAddress": "27/50 Johnstonganj Allahabad, UP 211003, India",
     "amount": "234.80",
     "status": {
       "delivered": true
     },
     "orderItems": [
       {
-        "name": "Foundation Beshop",
+        "name": "Foundation Elyra",
         "price": "125.95"
       },
       {

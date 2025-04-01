@@ -12,7 +12,7 @@ export const LatestNews = () => {
         <div className='wrapper'>
           <SectionTitle
             subTitle='Our Blog'
-            title='The Latest News At BeShop'
+            title='The Latest News At Elyra'
             body='Nourish your skin with toxin-free cosmetic products. With the offers that you can’t refuse.'
           />
           <Blogs blogs={blogs} />
