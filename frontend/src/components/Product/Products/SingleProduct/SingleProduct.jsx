@@ -44,7 +44,7 @@ export const SingleProduct = ({
             </a>
           </Link>
           <span className='products-item__cost'>
-            <span>{oldPrice && `$${oldPrice}`}</span> ${price}
+            <span>{oldPrice && `₹${oldPrice}`}</span> ₹{price}
           </span>
         </div>
       </div>
