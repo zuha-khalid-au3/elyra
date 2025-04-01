@@ -47,7 +47,7 @@ export const Header = () => {
       <header className='header'>
         {promo && (
           <div className='header-top'>
-            <span>30% OFF ON ALL PRODUCTS ENTER CODE: beshop2020</span>
+            <span>30% OFF ON ALL PRODUCTS ENTER CODE: elyra2025</span>
             <i
               onClick={() => setPromo(false)}
               className='header-top-close js-header-top-close icon-close'
