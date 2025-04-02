@@ -40,7 +40,7 @@ export const ProfileAside = () => {
                   </a>
                 </Link>
                 <span className='profile-aside__viewed-item-price'>
-                  ${product.price}
+                ₹{product.price}
                 </span>
               </div>
             </div>
