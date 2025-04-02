@@ -90,7 +90,7 @@ export const PostContent = ({ blog }) => {
                 </a>
               </li>
               <li>
-                <a href='#/'>
+                <a href='https://x.com/elyra_cosmetics?t=mtZu_7z-M2zrF7IobcqfEQ&s=09'>
                   <i className='icon-twitter'></i>
                 </a>
               </li>
