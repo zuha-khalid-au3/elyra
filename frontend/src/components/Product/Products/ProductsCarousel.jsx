@@ -2,17 +2,18 @@ import {
   SlickArrowPrev,
   SlickArrowNext,
 } from 'components/utils/SlickArrows/SlickArrows';
-import { CartContext } from 'pages/_app';
-import { useContext } from 'react';
+import { useAppContext } from 'context/AppContext';
 import Slider from 'react-slick';
 import { SingleProduct } from './SingleProduct/SingleProduct';
 
 export const ProductsCarousel = ({ products }) => {
-  const { cart, setCart } = useContext(CartContext);
+  const { cart, addToCart } = useAppContext();
 
   const handleAddToCart = (id) => {
-    const newProduct = products?.find((pd) => pd.id === id);
-    setCart([...cart, { ...newProduct, quantity: 1 }]);
+    const product = products?.find((pd) => pd.id === id);
+    if (product) {
+      addToCart(product, 1);
+    }
   };
 
   const settings = {

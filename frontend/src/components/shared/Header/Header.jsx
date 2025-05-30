@@ -2,12 +2,12 @@ import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 import useWindowSize from 'components/utils/windowSize/windowSize';
 import { header, navItem } from 'data/data.header';
 import Link from 'next/link';
-import { CartContext } from 'pages/_app';
 import { useContext, useEffect, useState } from 'react';
 import { Nav } from './Nav/Nav';
+import { useAppContext } from 'context/AppContext';
 
 export const Header = () => {
-  const { cart } = useContext(CartContext);
+  const { cart } = useAppContext();
   const [promo, setPromo] = useState(true);
   const [fixedNav, setFixedNav] = useState(false);
   const [openMenu, setOpenMenu] = useState(false);

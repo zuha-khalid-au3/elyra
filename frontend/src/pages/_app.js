@@ -1,14 +1,28 @@
-import { createContext, useState } from 'react';
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
+import { AppProvider } from '../context/AppContext';
 import '../styles/styles.scss';
 
-export const CartContext = createContext();
-const MyApp = ({ Component, pageProps }) => {
-  const [cart, setCart] = useState([]);
+function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+
+  // Handle scroll to top on route change
+  useEffect(() => {
+    const handleRouteChange = () => {
+      window.scrollTo(0, 0);
+    };
+
+    router.events.on('routeChangeComplete', handleRouteChange);
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange);
+    };
+  }, [router.events]);
+
   return (
-    <CartContext.Provider value={{ cart, setCart }}>
+    <AppProvider>
       <Component {...pageProps} />
-    </CartContext.Provider>
+    </AppProvider>
   );
-};
+}
 
 export default MyApp;
