@@ -8,9 +8,3 @@ export default function Custom404() {
     </PublicLayout>
   );
 }
-
-// Set the status code for proper HTTP response
-Custom404.getInitialProps = ({ res, err }) => {
-  const statusCode = res ? res.statusCode : err ? err.statusCode : 404;
-  return { statusCode };
-};
